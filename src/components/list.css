@@ -1,0 +1,54 @@
+.cantidades {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 2vh;
+}
+
+.cant-espacios {
+    margin: 0.5vh;
+}
+
+.boton-eliminar {
+    background-color: #f2ac20;
+    border: none;
+    border-radius: 0.7vh;
+    padding: 2vh;
+    color: white;
+}
+
+.boton-modificar {
+    background-color: #4265d6;
+    border: none;
+    border-radius: 0.7vh;
+    padding: 1.5vh 2.5vh;
+    color: #ffffff;
+}
+
+.vertical {
+    display: flex;
+    align-items: center;
+    color: black;
+}
+
+.p-color {
+    color: black;
+}
+
+.list-horizontal {
+    background: white;
+    border-radius: 0.7em;
+    padding: 1.5em;
+    width: 15em;
+    height: 10em;
+    margin: 1em;
+}
+
+.order-list {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    padding-left: 50px;
+    padding-right: 50px;
+}
